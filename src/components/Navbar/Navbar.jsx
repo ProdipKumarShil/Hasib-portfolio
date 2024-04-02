@@ -2,28 +2,23 @@ import MenuBar from "../Menu/MenuBar"
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#1B1B1B]">
-      <div className="navbar-start">
-        <MenuBar />
-        <a className="btn btn-ghost text-xl">daisyUI</a>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li><a>Item 1</a></li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </details>
-          </li>
-          <li><a>Item 3</a></li>
-        </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+    <div className="bg-[#1B1B1B]">
+      <div className="navbar max-w-screen-xl mx-auto">
+        <div className="navbar-start">
+          <MenuBar />
+          <a className="btn btn-ghost text-xl text-[#9C9C9C]">daisyUI</a>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1 text-[#9C9C9C] font-ibm text-[14px]">
+            <li><a>Case Studies</a></li>
+            <li><a>Testimonials</a></li>
+            <li><a>Recent work</a></li>
+            <li><a>Get In Touch</a></li>
+          </ul>
+        </div>
+        <div className="navbar-end">
+          <a className="btn">Button</a>
+        </div>
       </div>
     </div>
   )
