@@ -7,7 +7,7 @@ import logo5 from '../../assets/logos/logo5.png'
 
 const Banner = () => {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary mb-[80px]">
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 py-20 justify-items-center">
           <div className="">
@@ -20,8 +20,8 @@ const Banner = () => {
           </div>
         </div>
         <div className="pb-[45px]">
-          <p className="font-ibm text-white mb-5">Worked with</p>
-          <div className="flex justify-between">
+          <p className="font-ibm text-white mb-5 px-2">Worked with</p>
+          <div className="flex justify-around md:justify-between gap-4 flex-wrap px-2">
             <WorkPic logo={logo1} />
             <WorkPic logo={logo2} />
             <WorkPic logo={logo3} />
@@ -39,7 +39,7 @@ export default Banner
 const WorkPic = ({logo}) => {
   return(
     <div className="border-[#1B1B1B] rounded border">
-      <img className='px-[38px] py-[20px]' src={logo} />
+      <img className='md:px-[38px] md:py-[20px] scale-75 md:scale-100 px-[18px] py-[10px]' src={logo} />
     </div>
   )
 }
