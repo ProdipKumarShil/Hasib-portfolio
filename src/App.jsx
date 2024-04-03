@@ -4,7 +4,6 @@ import MenuBar from "./components/Menu/MenuBar"
 import Navbar from "./components/Navbar/Navbar"
 import RecentWork from "./components/RecentWork/RecentWork"
 
-import 'swiper/swiper-bundle.css';
 
 const App = () => {
   return (
