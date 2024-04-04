@@ -2,7 +2,7 @@
 const CaseStudies = () => {
   return (
     <div>
-      <div className=" mb-[60px]">
+      <div className=" mb-[60px] px-2">
         <p className="text-[34px] font-raleway font-extrabold text-center mb-[10px]">Case Studies</p>
         <p className="text-[14px] font-ibm text-[#9C9C9C] max-w-[570px] text-center mx-auto leading-6">Solving user & business problems since last 15+ years. <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </div>

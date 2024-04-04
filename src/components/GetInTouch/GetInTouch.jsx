@@ -3,7 +3,7 @@ const GetInTouch = () => {
   return (
     <>
       <div className="bg-[#080808] py-20">
-        <div className=" mb-[60px]">
+        <div className=" mb-[60px] px-2">
           <p className="text-[34px] font-raleway font-extrabold text-center mb-[10px] text-white">Get In Touch</p>
           <p className="text-[14px] font-ibm text-[#9C9C9C] max-w-[570px] text-center mx-auto leading-6">Solving user & business problems since last 15+ years. <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
@@ -23,6 +23,9 @@ const GetInTouch = () => {
           <button className="w-[350px] block mx-auto mt-8  items-center justify-center rounded-[4px] bg-secondary py-3 px-6 font-ibm text-base font-medium text-white shadow-xl shadow-[#3f8e0059] transition-transform duration-200 ease-in-out hover:scale-[1.02]">Submit</button>
         </div>
 
+      </div>
+      <div className="bg-[#1B1B1B] py-5">
+        <p className="text-[#9C9C9C] font-raleway text-center text-xs">Made With <a target="_" href="https://www.linkedin.com/in/prodipkumarshil/"><i className="font-ibm">PK</i></a></p>
       </div>
     </>
   )

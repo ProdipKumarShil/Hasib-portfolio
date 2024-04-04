@@ -9,9 +9,9 @@ const Banner = () => {
   return (
     <div className="bg-primary mb-[80px]">
       <div className="max-w-screen-xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 py-20 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 py-20 justify-items-center px-2 gap-7">
           <div className="">
-            <p className="font-raleway font-extrabold text-[44px] text-white mb-5">Your Name Here</p>
+            <p className="font-raleway font-extrabold text-[44px] text-white mb-5">Hridoy Ahamed Hasib</p>
             <p className="font-ibm text-[#9C9C9C] mb-[30px] max-w-[492px]">Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <button className="mt-8 inline-flex items-center justify-center rounded-[4px] bg-secondary py-3 px-6 font-ibm text-base font-medium text-white shadow-xl shadow-[#3f8e0059] transition-transform duration-200 ease-in-out hover:scale-[1.02]">Let’s get started ></button>
           </div>
