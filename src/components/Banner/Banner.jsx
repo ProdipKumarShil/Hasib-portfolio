@@ -11,12 +11,15 @@ const Banner = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 py-20 justify-items-center px-2 gap-7">
           <div className="">
-            <p className="font-raleway font-extrabold text-[44px] text-white mb-5">Hridoy Ahamed Hasib</p>
-            <p className="font-ibm text-[#9C9C9C] mb-[30px] max-w-[492px]">Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            <button className="mt-8 inline-flex items-center justify-center rounded-[4px] bg-secondary py-3 px-6 font-ibm text-base font-medium text-white shadow-xl shadow-[#3f8e0059] transition-transform duration-200 ease-in-out hover:scale-[1.02]">Let’s get started ></button>
+            <p className="font-raleway font-extrabold text-[44px] text-white mb-5">MD Hasib</p>
+            <p className="font-ibm text-[#9C9C9C] mb-[30px] max-w-[492px]">Skilled in data entry and lead generation, with 4 years and 3.5 years of experience respectively. Meticulous attention to detail, strong analytical skills, and consistent high-quality results within tight deadlines.</p>
+            <a target='_blank' href='https://www.linkedin.com/in/mdhasibmolla/' className="mt-8 inline-flex items-center justify-center rounded-[4px] bg-secondary py-3 px-6 font-ibm text-base font-medium text-white shadow-xl shadow-[#3f8e0059] transition-transform duration-200 ease-in-out hover:scale-[1.02]">Let’s get started <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+            </a>
           </div>
           <div className="">
-            <img className='w-[350px] h-[350px] rounded-full object-cover' src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8fHww" alt="" />
+            <img className='w-[350px] h-[350px] rounded-full object-cover' src="https://res.cloudinary.com/dwhhe5dgs/image/upload/v1712298624/portfolios/hasib/hasib2_ezqdhl.jpg" alt="" />
           </div>
         </div>
         <div className="pb-[45px]">
@@ -36,8 +39,8 @@ const Banner = () => {
 
 export default Banner
 
-const WorkPic = ({logo}) => {
-  return(
+const WorkPic = ({ logo }) => {
+  return (
     <div className="border-[#1B1B1B] rounded border">
       <img className='md:px-[38px] md:py-[20px] scale-75 md:scale-100 px-[18px] py-[10px]' src={logo} />
     </div>
