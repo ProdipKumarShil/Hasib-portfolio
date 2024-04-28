@@ -1,9 +1,15 @@
 
-import logo1 from '../../assets/logos/logo1.png'
-import logo2 from '../../assets/logos/logo2.png'
-import logo3 from '../../assets/logos/logo3.png'
-import logo4 from '../../assets/logos/logo4.png'
-import logo5 from '../../assets/logos/logo5.png'
+// import logo1 from '../../assets/logos/logo1.png'
+// import logo2 from '../../assets/logos/logo2.png'
+// import logo3 from '../../assets/logos/logo3.png'
+// import logo4 from '../../assets/logos/logo4.png'
+// import logo5 from '../../assets/logos/logo5.png'
+
+import logo1 from '../../assets/logos2/apolloio.png'
+import logo2 from '../../assets/logos2/clearbit.png'
+import logo3 from '../../assets/logos2/contactout.png'
+import logo4 from '../../assets/logos2/salesql.png'
+import logo5 from '../../assets/logos2/webscraper.png'
 
 const Banner = () => {
   return (
@@ -22,7 +28,7 @@ const Banner = () => {
             <img className='w-[350px] h-[350px] rounded-full object-cover' src="https://res.cloudinary.com/dwhhe5dgs/image/upload/v1712298624/portfolios/hasib/hasib2_ezqdhl.jpg" alt="" />
           </div>
         </div>
-        <div className="pb-[45px]">
+        {/* <div className="pb-[45px]">
           <p className="font-ibm text-white mb-5 px-2">Worked with</p>
           <div className="flex justify-around md:justify-between gap-4 flex-wrap px-2">
             <WorkPic logo={logo1} />
@@ -30,8 +36,11 @@ const Banner = () => {
             <WorkPic logo={logo3} />
             <WorkPic logo={logo4} />
             <WorkPic logo={logo5} />
+            <div className="bg-white">
+              <img className='w-[150px] h-[40px] object-cover' src={logo1} alt="" />
+            </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
@@ -41,8 +50,8 @@ export default Banner
 
 const WorkPic = ({ logo }) => {
   return (
-    <div className="border-[#1B1B1B] rounded border">
-      <img className='md:px-[38px] md:py-[20px] scale-75 md:scale-100 px-[18px] py-[10px]' src={logo} />
+    <div className="border-[#1B1B1B] rounded border ">
+      <img className='md:px-[38px] md:py-[20px]  px-[18px] py-[10px] w-[150px] h-[25px]' src={logo} />
     </div>
   )
 }

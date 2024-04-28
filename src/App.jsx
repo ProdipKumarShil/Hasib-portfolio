@@ -4,6 +4,7 @@ import GetInTouch from "./components/GetInTouch/GetInTouch"
 import Navbar from "./components/Navbar/Navbar"
 import RecentWork from "./components/RecentWork/RecentWork"
 import Testimonial from "./components/Testimonial/Testimonial"
+import WorkedWith from "./components/WorkedWith/WorkedWith"
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <div className="">
       <Navbar />
       <Banner />
+      <WorkedWith />
       <CaseStudies />
       <Testimonial />
       <RecentWork />
