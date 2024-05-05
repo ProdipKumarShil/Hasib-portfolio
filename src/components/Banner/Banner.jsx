@@ -19,7 +19,7 @@ const Banner = () => {
           <div className="">
             <p className="font-raleway font-extrabold text-[44px] text-white mb-5">MD Hasib</p>
             <p className="font-ibm text-[#9C9C9C] mb-[30px] max-w-[492px]">Skilled in data entry and lead generation, with 4 years and 3.5 years of experience respectively. Meticulous attention to detail, strong analytical skills, and consistent high-quality results within tight deadlines.</p>
-            <a target='_blank' href='https://www.linkedin.com/in/mdhasibmolla/' className="mt-8 inline-flex items-center justify-center rounded-[4px] bg-secondary py-3 px-6 font-ibm text-base font-medium text-white shadow-xl shadow-[#3f8e0059] transition-transform duration-200 ease-in-out hover:scale-[1.02]">Let’s get started <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+            <a target='_blank' href='https://www.linkedin.com/in/mdhasibmolla/' className="mt-8 inline-flex items-center justify-center rounded-[4px] bg-secondary py-3 px-6 font-ibm text-base font-medium text-white shadow-xl shadow-[#3f8e0059] transition-transform duration-200 ease-in-out hover:scale-[1.02]">Connect By Linkedin <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
             </a>

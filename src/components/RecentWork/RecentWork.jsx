@@ -17,7 +17,7 @@ const RecentWork = () => {
     <div className='my-20'>
       <div className=" mb-[60px] px-2">
         <p className="text-[34px] font-raleway font-extrabold text-center mb-[10px]">Recent Work</p>
-        <p className="text-[14px] font-ibm text-[#9C9C9C] max-w-[570px] text-center mx-auto leading-6">Solving user & business problems since last 15+ years. <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p className="text-[14px] font-ibm text-[#9C9C9C] max-w-[570px] text-center mx-auto leading-6">Discover my latest lead generation triumphs showcased with screenshots, project names, and concise descriptions. <br /> Explore how I excel in driving leads and delivering tangible results. </p>
       </div>
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-[30px] justify-items-center px-2">
         {
